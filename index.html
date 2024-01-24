@@ -73,28 +73,28 @@
         <section>
             <div class="lg:my-8">
                 <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/1.png)] h-[50vh] lg:h-[80vh] bg-no-repeat bg-center bg-cover flex items-center justify-center rounded-lg">
+                    <div id="slide1" class="carousel-item relative w-full bg-[url('Images/1.png')] h-[50vh] lg:h-[80vh] bg-no-repeat bg-center bg-cover flex items-center justify-center rounded-lg">
                         <!--  -->
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide4" class="btn btn-circle">❮</a>
                             <a href="#slide2" class="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/1.png)] h-[50vh] lg:h-[80vh] bg-no-repeat bg-center bg-cover flex items-center justify-center">
+                    <div id="slide2" class="carousel-item relative w-full bg-[url('Images/1.png')] h-[50vh] lg:h-[80vh] bg-no-repeat bg-center bg-cover flex items-center justify-center">
                         <!--  -->
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide1" class="btn btn-circle">❮</a>
                             <a href="#slide3" class="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/1.png)] h-[50vh] lg:h-[80vh] bg-no-repeat bg-center bg-cover flex items-center justify-center">
+                    <div id="slide3" class="carousel-item relative w-full bg-[url('Images/1.png')] h-[50vh] lg:h-[80vh] bg-no-repeat bg-center bg-cover flex items-center justify-center">
                         <!--  -->
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide2" class="btn btn-circle">❮</a>
                             <a href="#slide4" class="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/1.png)] h-[50vh] lg:h-[80vh] bg-no-repeat bg-center bg-cover flex items-center justify-center">
+                    <div id="slide4" class="carousel-item relative w-full bg-[url('Images/1.png')] h-[50vh] lg:h-[80vh] bg-no-repeat bg-center bg-cover flex items-center justify-center">
                         <!--  -->
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide3" class="btn btn-circle">❮</a>
@@ -490,6 +490,71 @@
                             <div class="collapse-content">
                                 <p>Pricings</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="my-20">
+            <div class="divider pb-2"></div>
+            <div>
+                <div>
+                    <h1 class="text-4xl font-bold text-center">Professional Hockeys Club</h1>
+                    <p class="lg:w-[55%] text-center mx-auto my-3 opacity-80">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                <div class="divider pb-7 pt-3"></div>
+                <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+                    <div class="lg:col-span-2 border-2 rounded-lg">
+                        <div class="bg-[#e5e7eb] p-6 m-5 rounded-xl space-y-3">
+                            <img src="Images/Group 1171275317.png" alt="">
+                            <div>
+                                <p>Phone Number :</p>
+                                <h3 class="font-extrabold">(+62) 123-321-543</h3>
+                            </div>
+                        </div>
+                        <div class="bg-[#ffedd5] p-6 m-5 rounded-xl  space-y-3">
+                            <img src="Images/Group 1171275318.png" alt="">
+                            <div>
+                                <p>Email :</p>
+                                <h3 class="font-extrabold">hockeys@support.com</h3>
+                            </div>
+                        </div>
+                        <div class="bg-[#e0e7ff] p-6 m-5 rounded-xl  space-y-3">
+                            <img src="Images/Group 1171275321.png" alt="">
+                            <div>
+                                <p>Location :</p>
+                                <h3 class="font-extrabold">152/1 Mohakhali Wireless Gate</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact form -->
+                    <div class="lg:col-span-3">
+                        <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                            <div>
+                                <label for="">Your Name</label>
+                                <input type="text" placeholder="Enter your full name" class="mt-2 input input-bordered bg- w-full" />
+                            </div>
+                            <div>
+                                <label for="">Your Email</label>
+                                <input type="email" placeholder="Enter your email" class="mt-2 input input-bordered w-full" />
+                            </div>
+                            <div>
+                                <label for="">Subject</label>
+                                <input type="text" placeholder="Enter your subject" class="mt-2 input input-bordered w-full" />
+                            </div>
+                            <div>
+                                <label for="">Phone number</label>
+                                <input type="text" placeholder="Enter your phone number" class="mt-2 input input-bordered w-full" />
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <label for="">Message</label>
+                            <textarea class="w-full mt-2 textarea textarea-bordered lg:h-[250px]" placeholder="Write your message"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn w-full bg-[#FF4240] mt-3 text-white">Send message</button>
                         </div>
                     </div>
                 </div>
